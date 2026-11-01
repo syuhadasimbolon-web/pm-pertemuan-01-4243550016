@@ -29,8 +29,9 @@ class HalamanProfil extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Pemrograman Mobile — Pertemuan 1'),
-        backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+        backgroundColor: Colors.orange,
       ),
+      
       body: Center(
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(24),
@@ -50,7 +51,7 @@ class HalamanProfil extends StatelessWidget {
                 style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 8),
-              const Text('NIM: 4243250056'),
+              const Text('NIM: 4243550016'),
               const Text('Kelas: PSIK24D'),
               const Text(
                 'Universitas Negeri Medan',
